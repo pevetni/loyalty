@@ -1,0 +1,232 @@
+    .ui-datepicker { font-size:9pt !important}
+
+    .lblTitle
+    {
+        height: 30px;
+        font-family: "Open Sans";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 30px;
+        color: #333333;
+        padding-left:5px;
+    }
+
+    .txtbox
+    {
+        border: thin solid #C0C0C0;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 25px;
+        padding-left:5px;
+
+        font-size:medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+
+        color: #333333;
+    }
+
+    
+
+    .txtboxcombo
+    {
+        border: thin solid #C0C0C0;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 25px;
+        padding-left:5px;
+
+        font-size:medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+
+        color: #333333;
+    }
+
+    .lblwhitedata
+    {
+        height: 30px;
+        font-family: "Open Sans";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 12px;
+        color: white;
+    }
+
+
+    .lbldata
+    {
+        height: 30px;
+        font-family: "Open Sans";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    .lblrequired
+    {
+        height: 30px;
+        font-family: "Open Sans";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+        color: red;
+    }
+
+    .txtboxRequired
+    {
+        border: thin solid red;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 25px;
+        padding-left:5px;
+
+        font-size:medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+
+        color: #333333;
+    }
+
+
+
+    .button
+    {
+        border: thin solid #C0C0C0;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        height: 30px;
+        width: 100px;
+
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+
+        color: white;
+        background-color:red;
+        cursor: pointer;
+    }
+
+    table.tabla_sin 
+    {
+        border-collapse:collapse;
+        border: none;
+    }
+
+    .content 
+    {
+        max-width: 550px;
+        margin: auto;
+        background-color:white;
+    }
+    .page
+    {
+        height:100%;
+        width:100%;
+    }
+    .logo
+    {
+        margin-top:0px;
+    }
+
+    
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    color:red;
+    /*border-bottom: 1px dotted black;  If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: lightgrey;
+    color:black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 12px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip-left {
+  top: -5px;
+  bottom:auto;
+  right: 128%;  
+}
+.tooltip-right {
+  top: -5px;
+  left: 125%;  
+}
+
+.tooltip-bottom {
+  top: 135%;
+  left: 50%;  
+  margin-left: -60px;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.titulo_boton {
+    background-color:#e6e6e6;
+    width:100%;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: red;
+}
+
+.ltitulo_boton_required {
+    background-color:#e6e6e6;
+    border: thin solid red;
+    width:100%;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: red;
+}
+
+.boton_mostrar {
+  float:right;
+  font-size:12px;
+  line-height:20px;
+  color:#DE7217;
+}
+#contenido{
+  float:left;
+  clear:both;
+  border:1px solid #e6e6e6;
+  margin-top:2px;
+  padding:5px;
+  width:420px;
+  overflow:auto;
+  font-family:helvetica;
+  font-size:14px;
+  text-align: justify;
+}
+
+
+#success_message{ display: none;}

@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{13700611-C194-40B1-BE60-7E6031854B7B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ACTIVATE.aspx.cs">
+    <Files>
+      <File FileName="ACTIVATE.aspx.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SGM-LOYALTY" expanded="True">
+            <Node name="SGM-LOYALTY" expanded="True">
+              <Node name="ACTIVATE.aspx" expanded="True">
+                <Node name="ACTIVATE.aspx.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SGM-LOYALTY PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

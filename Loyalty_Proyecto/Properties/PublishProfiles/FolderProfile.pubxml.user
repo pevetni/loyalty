@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Boreal4\source\repos\SGM-LOYALTY\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/Login.aspx">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Account/Manage.aspx">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Account/OpenAuthProviders.ascx">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Account/RegisterExternalLogin.aspx">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="ACTIVATE.aspx">
+      <publishTime>07/17/2019 00:53:47</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>07/22/2019 23:27:18</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>07/22/2019 23:27:18</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.UI.Combined.dll">
+      <publishTime>07/20/2018 09:15:18</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="bin/es/EntityFramework.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Optimization.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Providers.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="bin/MailSender.dll">
+      <publishTime>07/22/2019 23:26:32</publishTime>
+    </File>
+    <File Include="bin/MailSender.pdb">
+      <publishTime>07/22/2019 23:26:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Membership.OpenAuth.dll">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/26/2010 10:18:22</publishTime>
+    </File>
+    <File Include="bin/SGM-LOYALTY.dll">
+      <publishTime>07/22/2019 23:27:13</publishTime>
+    </File>
+    <File Include="bin/SGM-LOYALTY.pdb">
+      <publishTime>07/22/2019 23:27:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="CSS/Activate.css">
+      <publishTime>09/06/2018 11:43:02</publishTime>
+    </File>
+    <File Include="CSS/ActivateMain.css">
+      <publishTime>09/05/2018 14:28:00</publishTime>
+    </File>
+    <File Include="CSS/Activate_bootstrapValidator_min.css">
+      <publishTime>09/06/2018 12:00:40</publishTime>
+    </File>
+    <File Include="CSS/Activate_bootstrap_min.css">
+      <publishTime>09/06/2018 11:58:32</publishTime>
+    </File>
+    <File Include="CSS/Activate_bootstrap_theme_min.css">
+      <publishTime>09/06/2018 11:59:50</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/css/bootstrap-theme.css">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/css/bootstrap-theme.css.map">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/css/bootstrap-theme.min.css">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/css/bootstrap.css">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/css/bootstrap.css.map">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/css/bootstrap.min.css">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/js/bootstrap.js">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-3.2.0/dist/js/bootstrap.min.js">
+      <publishTime>06/26/2014 09:36:48</publishTime>
+    </File>
+    <File Include="CSS/bootstrap-select.css">
+      <publishTime>07/23/2018 11:10:02</publishTime>
+    </File>
+    <File Include="CSS/familyOpenSans.css">
+      <publishTime>08/06/2018 13:16:40</publishTime>
+    </File>
+    <File Include="CSS/jquery_ui.css">
+      <publishTime>08/06/2018 13:07:50</publishTime>
+    </File>
+    <File Include="External/Ext.Net.dll">
+      <publishTime>02/27/2018 16:33:40</publishTime>
+    </File>
+    <File Include="External/Ext.Net.pdb">
+      <publishTime>02/27/2018 16:33:40</publishTime>
+    </File>
+    <File Include="External/Ext.Net.Utilities.dll">
+      <publishTime>02/27/2018 16:32:56</publishTime>
+    </File>
+    <File Include="External/Ext.Net.Utilities.pdb">
+      <publishTime>02/27/2018 16:32:56</publishTime>
+    </File>
+    <File Include="External/Ext.Net.XML">
+      <publishTime>02/27/2018 16:33:04</publishTime>
+    </File>
+    <File Include="External/Newtonsoft.Json.dll">
+      <publishTime>10/26/2010 10:18:22</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/accent.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/bullet.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/DiarcoBackground.jpg">
+      <publishTime>07/24/2018 15:05:06</publishTime>
+    </File>
+    <File Include="Images/heroAccent.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList0.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList1.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList2.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList3.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList4.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList5.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList6.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList7.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList8.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/orderedList9.png">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="Images/Privilegios.jpg">
+      <publishTime>11/28/2018 07:53:54</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/AspNet.ScriptManager.jQuery.1.7.1/AspNet.ScriptManager.jQuery.1.7.1.nupkg">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="packages/AspNet.ScriptManager.jQuery.1.7.1/lib/net40/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="packages/AspNet.ScriptManager.jQuery.1.7.1/lib/net45/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="packages/AspNet.ScriptManager.jQuery.UI.Combined.1.8.20/AspNet.ScriptManager.jQuery.UI.Combined.1.8.20.nupkg">
+      <publishTime>07/20/2018 09:15:18</publishTime>
+    </File>
+    <File Include="packages/AspNet.ScriptManager.jQuery.UI.Combined.1.8.20/lib/net40/AspNet.ScriptManager.jQuery.UI.Combined.dll">
+      <publishTime>07/20/2018 09:15:18</publishTime>
+    </File>
+    <File Include="packages/AspNet.ScriptManager.jQuery.UI.Combined.1.8.20/lib/net45/AspNet.ScriptManager.jQuery.UI.Combined.dll">
+      <publishTime>07/20/2018 09:15:18</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.AspNet.4.0.3.12153/DotNetOpenAuth.AspNet.4.0.3.12153.nupkg">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.AspNet.4.0.3.12153/lib/net40-full/DotNetOpenAuth.AspNet.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.Core.4.0.3.12153/DotNetOpenAuth.Core.4.0.3.12153.nupkg">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.Core.4.0.3.12153/lib/net40-full/DotNetOpenAuth.Core.dll">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.OAuth.Consumer.4.0.3.12153/DotNetOpenAuth.OAuth.Consumer.4.0.3.12153.nupkg">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.OAuth.Consumer.4.0.3.12153/lib/net40-full/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.OAuth.Core.4.0.3.12153/DotNetOpenAuth.OAuth.Core.4.0.3.12153.nupkg">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.OAuth.Core.4.0.3.12153/lib/net40-full/DotNetOpenAuth.OAuth.dll">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.OpenId.Core.4.0.3.12153/DotNetOpenAuth.OpenId.Core.4.0.3.12153.nupkg">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.OpenId.Core.4.0.3.12153/lib/net40-full/DotNetOpenAuth.OpenId.dll">
+      <publishTime>07/20/2018 09:15:26</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153/DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153.nupkg">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153/lib/net40-full/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/Content/App.config.transform">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/Content/Web.config.transform">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/EntityFramework.5.0.0.nupkg">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/lib/net40/EntityFramework.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/lib/net40/es/EntityFramework.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/lib/net40/es/EntityFramework.xml">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/lib/net45/EntityFramework.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/lib/net45/es/EntityFramework.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/lib/net45/es/EntityFramework.xml">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/about_EntityFramework.help.txt">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/EntityFramework.PowerShell.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/EntityFramework.PowerShell.Utility.dll">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/EntityFramework.PS3.psd1">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/EntityFramework.psd1">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/EntityFramework.psm1">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/init.ps1">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/install.ps1">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/migrate.exe">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/Redirect.config">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.5.0.0/tools/Redirect.VS11.config">
+      <publishTime>07/20/2018 09:15:28</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.es.5.0.0/EntityFramework.es.5.0.0.nupkg">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.es.5.0.0/lib/net40/es/EntityFramework.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.es.5.0.0/lib/net40/es/EntityFramework.xml">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.es.5.0.0/lib/net45/es/EntityFramework.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/EntityFramework.es.5.0.0/lib/net45/es/EntityFramework.xml">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/jQuery.1.7.1.1/Content/Scripts/jquery-1.7.1.js">
+      <publishTime>07/20/2018 09:14:58</publishTime>
+    </File>
+    <File Include="packages/jQuery.1.7.1.1/Content/Scripts/jquery-1.7.1.min.js">
+      <publishTime>07/20/2018 09:14:58</publishTime>
+    </File>
+    <File Include="packages/jQuery.1.7.1.1/jQuery.1.7.1.1.nupkg">
+      <publishTime>07/20/2018 09:14:58</publishTime>
+    </File>
+    <File Include="packages/jQuery.1.7.1.1/Tools/common.ps1">
+      <publishTime>07/20/2018 09:14:58</publishTime>
+    </File>
+    <File Include="packages/jQuery.1.7.1.1/Tools/install.ps1">
+      <publishTime>07/20/2018 09:14:58</publishTime>
+    </File>
+    <File Include="packages/jQuery.1.7.1.1/Tools/uninstall.ps1">
+      <publishTime>07/20/2018 09:14:58</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery-ui.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.all.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.base.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.button.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.core.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.slider.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/jquery.ui.theme.css">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Scripts/jquery-ui-1.8.20.js">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/Content/Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/jQuery.UI.Combined.1.8.20.1/jQuery.UI.Combined.1.8.20.1.nupkg">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Membership.OpenAuth.1.0.0/lib/net40/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Membership.OpenAuth.1.0.0/lib/net40/Microsoft.AspNet.Membership.OpenAuth.dll">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Membership.OpenAuth.1.0.0/lib/net45/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Membership.OpenAuth.1.0.0/lib/net45/Microsoft.AspNet.Membership.OpenAuth.dll">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Membership.OpenAuth.1.0.0/Microsoft.AspNet.Membership.OpenAuth.1.0.0.nupkg">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Membership.OpenAuth.es.1.0.0/lib/net40/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Membership.OpenAuth.es.1.0.0/lib/net45/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Membership.OpenAuth.es.1.0.0/Microsoft.AspNet.Membership.OpenAuth.es.1.0.0.nupkg">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.Core.1.1/lib/net40/es/System.Web.Providers.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.Core.1.1/lib/net40/System.Web.Providers.dll">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.Core.1.1/Microsoft.AspNet.Providers.Core.1.1.nupkg">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.Core.1.1/readme.html">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.Core.es.1.1/lib/net40/es/System.Web.Providers.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.Core.es.1.1/Microsoft.AspNet.Providers.Core.es.1.1.nupkg">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.LocalDB.1.1/content/web.config.transform">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.LocalDB.1.1/Microsoft.AspNet.Providers.LocalDB.1.1.nupkg">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Providers.LocalDB.1.1/tools/Install.ps1">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>07/20/2018 09:15:20</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>07/20/2018 09:15:20</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>07/20/2018 09:15:20</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>07/20/2018 09:15:20</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>07/20/2018 09:15:20</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>07/20/2018 09:15:20</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>07/20/2018 09:15:20</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/content/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/lib/net45/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6/Microsoft.AspNet.ScriptManager.MSAjax.4.5.6.nupkg">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/DetailsView.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/Focus.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/GridView.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/Menu.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/MenuStandards.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/SmartNav.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/TreeView.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/WebForms.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/WebParts.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/content/Scripts/WebForms/WebUIValidation.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/lib/net45/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.ScriptManager.WebForms.4.5.6/Microsoft.AspNet.ScriptManager.WebForms.4.5.6.nupkg">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Web.Optimization.1.0.0/lib/net40/es/System.Web.Optimization.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Web.Optimization.1.0.0/lib/net40/System.Web.Optimization.dll">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Web.Optimization.1.0.0/Microsoft.AspNet.Web.Optimization.1.0.0.nupkg">
+      <publishTime>07/20/2018 09:15:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Web.Optimization.es.1.0.0/lib/net40/es/System.Web.Optimization.resources.dll">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Web.Optimization.es.1.0.0/Microsoft.AspNet.Web.Optimization.es.1.0.0.nupkg">
+      <publishTime>07/20/2018 09:15:32</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Web.Optimization.WebForms.1.0.0/content/web.config.transform">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Web.Optimization.WebForms.1.0.0/lib/net45/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Web.Optimization.WebForms.1.0.0/Microsoft.AspNet.Web.Optimization.WebForms.1.0.0.nupkg">
+      <publishTime>07/20/2018 09:15:30</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Web.Infrastructure.1.0.0.0/lib/net40/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Web.Infrastructure.1.0.0.0/Microsoft.Web.Infrastructure.1.0.0.0.nupkg">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Web.Infrastructure.1.0.0.0/tools/Install.ps1">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Web.Infrastructure.1.0.0.0/tools/Uninstall.ps1">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Web.Infrastructure.1.0.0.0/tools/VS.psd1">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Web.Infrastructure.1.0.0.0/tools/VS.psm1">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="packages/Modernizr.2.5.3/Content/Scripts/modernizr-2.5.3.js">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="packages/Modernizr.2.5.3/Modernizr.2.5.3.nupkg">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="packages/repositories.config">
+      <publishTime>07/20/2018 09:15:00</publishTime>
+    </File>
+    <File Include="packages/WebGrease.1.1.0/lib/Antlr3.Runtime.dll">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="packages/WebGrease.1.1.0/lib/WebGrease.dll">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="packages/WebGrease.1.1.0/tools/WG.exe">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="packages/WebGrease.1.1.0/WebGrease.1.1.0.nupkg">
+      <publishTime>07/20/2018 09:15:14</publishTime>
+    </File>
+    <File Include="PlantillasMail/MailActivacion.html">
+      <publishTime>07/20/2019 18:04:04</publishTime>
+    </File>
+    <File Include="PlantillasMail/MailConfirmacionAlta.html">
+      <publishTime>07/20/2019 18:17:20</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>07/22/2019 23:27:15</publishTime>
+    </File>
+    <File Include="Privilegios.aspx">
+      <publishTime>11/28/2018 08:11:04</publishTime>
+    </File>
+    <File Include="Scripts/Activate.js">
+      <publishTime>09/06/2018 11:47:40</publishTime>
+    </File>
+    <File Include="Scripts/ActivateMain.js">
+      <publishTime>09/05/2018 13:05:14</publishTime>
+    </File>
+    <File Include="Scripts/Activate_bootstrap_min.js">
+      <publishTime>09/06/2018 12:02:34</publishTime>
+    </File>
+    <File Include="Scripts/Activate_jquery_min.js">
+      <publishTime>09/06/2018 12:02:00</publishTime>
+    </File>
+    <File Include="Scripts/Activate_modernizr_min.js">
+      <publishTime>09/06/2018 12:01:22</publishTime>
+    </File>
+    <File Include="Scripts/ajax_googleapis.js">
+      <publishTime>08/06/2018 13:03:56</publishTime>
+    </File>
+    <File Include="Scripts/bootStrapValidator.js">
+      <publishTime>09/05/2018 12:40:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>07/20/2018 09:15:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>07/20/2018 09:15:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.js">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>07/20/2018 09:15:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery_1_10_1.js">
+      <publishTime>08/06/2018 13:10:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery_1_9_1.js">
+      <publishTime>08/06/2018 13:09:42</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.5.3.js">
+      <publishTime>07/20/2018 09:15:12</publishTime>
+    </File>
+    <File Include="Scripts/Privilegios.js">
+      <publishTime>11/27/2018 09:30:36</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>07/20/2018 09:15:22</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>07/20/2018 09:15:24</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>07/20/2018 09:15:08</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>07/20/2018 09:14:40</publishTime>
+    </File>
+    <File Include="TerminosYCondiciones.htm">
+      <publishTime>08/21/2018 12:43:24</publishTime>
+    </File>
+    <File Include="Validate.aspx">
+      <publishTime>07/20/2019 15:13:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/22/2019 23:27:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loyalty_Email_API", "Loyalty_Email_API\Loyalty_Email_API.csproj", "{EBF69915-1CD6-4BB7-9E6D-A9C03A025DC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{398C9825-4D1F-4B03-BCEB-0C33C82A965C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBF69915-1CD6-4BB7-9E6D-A9C03A025DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF69915-1CD6-4BB7-9E6D-A9C03A025DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF69915-1CD6-4BB7-9E6D-A9C03A025DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF69915-1CD6-4BB7-9E6D-A9C03A025DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FBE488D-1F74-4F34-B2A3-79AB1D9350F2}
+	EndGlobalSection
+EndGlobal

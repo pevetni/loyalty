@@ -1,0 +1,156 @@
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/SGM-LOYALTY.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/SGM-LOYALTY.pdb
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Antlr3.Runtime.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/AspNet.ScriptManager.jQuery.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.AspNet.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.Core.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.Consumer.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.RelyingParty.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/EntityFramework.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Ext.Net.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Ext.Net.Utilities.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Microsoft.AspNet.Membership.OpenAuth.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Microsoft.ScriptManager.MSAjax.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Microsoft.ScriptManager.WebForms.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Microsoft.Web.Infrastructure.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Newtonsoft.Json.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/System.Web.Optimization.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/System.Web.Providers.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/WebGrease.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Ext.Net.pdb
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Ext.Net.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Ext.Net.Utilities.pdb
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/Newtonsoft.Json.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/EntityFramework.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.Core.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.Consumer.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.RelyingParty.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/DotNetOpenAuth.AspNet.xml
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/es/EntityFramework.resources.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/es/System.Web.Optimization.resources.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/es/System.Web.Providers.resources.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/bin/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.csprojResolveAssemblyReference.cache
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.dll
+C:/MyDevs/SGM-LOYALTY/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.pdb
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/SGM-LOYALTY.dll.config
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/SGM-LOYALTY.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/SGM-LOYALTY.pdb
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/Antlr3.Runtime.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/AspNet.ScriptManager.jQuery.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.AspNet.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.Core.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.Consumer.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.RelyingParty.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/EntityFramework.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/MailSender.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/Microsoft.AspNet.Membership.OpenAuth.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/Microsoft.ScriptManager.MSAjax.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/Microsoft.ScriptManager.WebForms.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/Newtonsoft.Json.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/System.Web.Optimization.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/System.Web.Providers.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/WebGrease.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/MailSender.pdb
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/Newtonsoft.Json.xml
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/EntityFramework.xml
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.Core.xml
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.xml
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.Consumer.xml
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.xml
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.RelyingParty.xml
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/DotNetOpenAuth.AspNet.xml
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/es/EntityFramework.resources.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/es/System.Web.Optimization.resources.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/es/System.Web.Providers.resources.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/bin/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.csprojAssemblyReference.cache
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.csproj.CoreCompileInputs.cache
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.csproj.CopyComplete
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.dll
+C:/Users/Boreal4/source/repos/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.pdb
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/SGM-LOYALTY.dll.config
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/SGM-LOYALTY.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/SGM-LOYALTY.pdb
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/Antlr3.Runtime.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/AspNet.ScriptManager.jQuery.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.AspNet.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.Core.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.Consumer.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.RelyingParty.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/EntityFramework.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/Microsoft.AspNet.Membership.OpenAuth.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/Microsoft.ScriptManager.MSAjax.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/Microsoft.ScriptManager.WebForms.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/Newtonsoft.Json.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/System.Web.Optimization.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/System.Web.Providers.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/WebGrease.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/EntityFramework.xml
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.Core.xml
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.xml
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.OAuth.Consumer.xml
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.xml
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.OpenId.RelyingParty.xml
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/DotNetOpenAuth.AspNet.xml
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/es/EntityFramework.resources.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/es/System.Web.Optimization.resources.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/es/System.Web.Providers.resources.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/bin/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.csprojAssemblyReference.cache
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.csproj.CoreCompileInputs.cache
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.csproj.CopyComplete
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.dll
+C:/Users/dgomez/Downloads/Diarco+ SGM_LOYALTY Ultimo/SGM-LOYALTY/obj/Debug/SGM-LOYALTY.pdb
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/SGM-LOYALTY.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/SGM-LOYALTY.pdb
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/Antlr3.Runtime.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/AspNet.ScriptManager.jQuery.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/AspNet.ScriptManager.jQuery.UI.Combined.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.AspNet.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.Core.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.OAuth.Consumer.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.OAuth.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.OpenId.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.OpenId.RelyingParty.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/EntityFramework.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/Microsoft.AspNet.Membership.OpenAuth.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/Microsoft.AspNet.Web.Optimization.WebForms.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/Microsoft.ScriptManager.MSAjax.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/Microsoft.ScriptManager.WebForms.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/Microsoft.Web.Infrastructure.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/System.Web.Optimization.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/System.Web.Providers.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/WebGrease.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/Newtonsoft.Json.xml
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/EntityFramework.xml
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.Core.xml
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.OAuth.xml
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.OAuth.Consumer.xml
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.OpenId.xml
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.OpenId.RelyingParty.xml
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/DotNetOpenAuth.AspNet.xml
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/es/EntityFramework.resources.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/es/System.Web.Optimization.resources.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/es/System.Web.Providers.resources.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/bin/es/Microsoft.AspNet.Membership.OpenAuth.resources.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/obj/Debug/SGM-LOYALTY.csproj.CoreCompileInputs.cache
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/obj/Debug/SGM-LOYALTY.csproj.CopyComplete
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/obj/Debug/SGM-LOYALTY.dll
+/Users/carlos.rodriguez/projectsVS/loyalty/Loyalty_Proyecto/obj/Debug/SGM-LOYALTY.pdb

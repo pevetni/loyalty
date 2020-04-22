@@ -1,0 +1,99 @@
+﻿body {
+}
+
+#success_message{ display: none;}
+    
+table.tabla_sin 
+{
+    border-collapse:collapse;
+    border: none;
+}
+        
+.lblTitle
+{
+    height: 30px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: #333333;
+    padding-left:5px;
+}
+
+.lblwhitedata
+{
+    height: 30px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+}
+
+.titulo_boton {
+    background-color:#e6e6e6;
+    width:100%;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    color: red;
+}
+
+.boton_mostrar {
+    float:right;
+    font-size:12px;
+    line-height:20px;
+    color:#DE7217;
+}
+
+.button
+{
+    border: thin solid #C0C0C0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 30px;
+    width: 100px;
+
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+
+    color: white;
+    background-color:red;
+    cursor: pointer;
+}
+
+.ltitulo_boton_required {
+    background-color:#e6e6e6;
+    border: thin solid red;
+    width:100%;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: red;
+}
+
+.lbldata
+{
+    height: 30px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: #333333;
+}
+
+.lblrequired
+{
+    height: 30px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: red;
+}
+
