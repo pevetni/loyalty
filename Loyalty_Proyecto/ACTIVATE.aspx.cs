@@ -337,11 +337,26 @@ namespace SGM_LOYALTY
                 }
                 else
                 {
+                    using (IBaseDatos baseDatos = BaseDatos.Construir(new SqlConnection(System.Configuration.ConfigurationManager.AppSettings["STR-CNN-LOYALTY"])))
+                    {
+                        string[] param = new string[] { "Mensaje" };
+                        object[] value = new object[1];
+                        value[0] = "RETRY: servicio de Mail envio Status code = " + response.StatusCode + " con el siguiente mensaje = "+ response.RequestMessage.Content;
+
+                        baseDatos.EjecutarSP("[LOYALTY].[sp_Logs_Insert]", param, value);
+                    };
                     return false;
                 }
             }
             catch (Exception e) {
+                using (IBaseDatos baseDatos = BaseDatos.Construir(new SqlConnection(System.Configuration.ConfigurationManager.AppSettings["STR-CNN-LOYALTY"])))
+                {
+                    string[] param = new string[] { "Mensaje" };
+                    object[] value = new object[1];
+                    value[0] = "ERROR: servicio de Envio de MAIL no accesible, = " + e.Message;
 
+                    baseDatos.EjecutarSP("[LOYALTY].[sp_Logs_Insert]", param, value);
+                };
                 return false;
             }
         }
@@ -364,10 +379,26 @@ namespace SGM_LOYALTY
                 }
                 else
                 {
+                    using (IBaseDatos baseDatos = BaseDatos.Construir(new SqlConnection(System.Configuration.ConfigurationManager.AppSettings["STR-CNN-LOYALTY"])))
+                    {
+                        string[] param = new string[] { "Mensaje" };
+                        object[] value = new object[1];
+                        value[0] = "RETRY: servicio de PROMOCIONES retorno Status code = " + response.StatusCode + " con el siguiente mensaje = " + response.RequestMessage.Content;
+
+                        baseDatos.EjecutarSP("[LOYALTY].[sp_Logs_Insert]", param, value);
+                    };
                     return false;
                 }
             }
             catch (Exception e) {
+                using (IBaseDatos baseDatos = BaseDatos.Construir(new SqlConnection(System.Configuration.ConfigurationManager.AppSettings["STR-CNN-LOYALTY"])))
+                {
+                    string[] param = new string[] { "Mensaje" };
+                    object[] value = new object[1];
+                    value[0] = "ERROR: servicio de Promociones no accesible, = "+e.Message;
+
+                    baseDatos.EjecutarSP("[LOYALTY].[sp_Logs_Insert]", param, value);
+                };
                 return false;
             }
         }
