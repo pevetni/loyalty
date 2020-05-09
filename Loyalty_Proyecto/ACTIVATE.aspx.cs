@@ -277,9 +277,23 @@ namespace SGM_LOYALTY
             promo.Amount = 0.0D;
 
 
-            if (ConfigurationManager.AppSettings["EmailEnable"].Equals("True") && EnviarMailActivacion(email))
+            if (ConfigurationManager.AppSettings["EmailEnable"].Equals("True"))
             {
-                value[17] = 1;
+                if (EnviarMailActivacion(email))
+                {
+                    value[17] = 1;
+                }
+            }
+            else
+            {
+                using (IBaseDatos baseDatos = BaseDatos.Construir(new SqlConnection(System.Configuration.ConfigurationManager.AppSettings["STR-CNN-LOYALTY"])))
+                {
+                    param = new string[] { "Mensaje" };
+                    value = new object[1];
+                    value[0] = "WARNING: servicio de Envio de MAIL inhabilitado por el Administrador";
+
+                    baseDatos.EjecutarSP("[LOYALTY].[sp_Logs_Insert]", param, value);
+                };
             }
 
             DataTable resultado = new DataTable();
@@ -295,7 +309,18 @@ namespace SGM_LOYALTY
                         {
                             hfOperacion.Value = "ok";
                             if (ConfigurationManager.AppSettings["PromoEnable"].Equals("True"))
+                            {
                                 EnviarAPromociones(promo);
+                            }
+                            else
+                            {
+                                param = new string[] { "Mensaje" };
+                                value = new object[1];
+                                value[0] = "WARNING: servicio de PROMOCIONES inhabilitado por el Administrador";
+
+                                baseDatos.EjecutarSP("[LOYALTY].[sp_Logs_Insert]", param, value);
+                            }
+                                
                         }
                         else
                         {
