@@ -324,7 +324,7 @@ namespace SGM_LOYALTY
                         }
                         else
                         {
-                            this.lblError.Text = item[1].ToString();
+                            lblError.Text = item[1].ToString();
                             hfOperacion.Value = "error";
                         }
                     }
@@ -340,7 +340,7 @@ namespace SGM_LOYALTY
             }
             catch (Exception ex)
             {
-                this.lblError.Text = "Ha ocurrido un error, contacte al administrador del sistema.";
+                lblError.Text = "Ha ocurrido un error, contacte al administrador del sistema.";
                 hfOperacion.Value = "error";
                 using (IBaseDatos baseDatos = BaseDatos.Construir(new SqlConnection(System.Configuration.ConfigurationManager.AppSettings["STR-CNN-LOYALTY"])))
                 {
@@ -350,6 +350,7 @@ namespace SGM_LOYALTY
 
                     baseDatos.EjecutarSP("[LOYALTY].[sp_Logs_Insert]", param, value);
                 };
+                return;
             }
         }
 

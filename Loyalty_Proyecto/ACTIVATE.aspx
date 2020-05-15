@@ -361,7 +361,7 @@
     <div id="mainerror" align="center" class="content">
         <table>
             <tr style="height:100px">
-                <td class="lblrequired">
+                <td class="lbldata">
                     <asp:Label ID="lblError" runat="server" />
                 </td>
             </tr>
