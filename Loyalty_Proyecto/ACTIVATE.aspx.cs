@@ -340,16 +340,16 @@ namespace SGM_LOYALTY
             }
             catch (Exception ex)
             {
+                this.lblError.Text = "Ha ocurrido un error, contacte al administrador del sistema.";
+                hfOperacion.Value = "error";
                 using (IBaseDatos baseDatos = BaseDatos.Construir(new SqlConnection(System.Configuration.ConfigurationManager.AppSettings["STR-CNN-LOYALTY"])))
                 {
                     param = new string[] { "Mensaje" };
                     value = new object[1];
-                    value[0] = "ERROR: A ocurrido el siguiente error en proceso de insercion = "+ex.Message;
+                    value[0] = "ERROR: A ocurrido el siguiente error en proceso de insercion = " + ex.Message;
 
                     baseDatos.EjecutarSP("[LOYALTY].[sp_Logs_Insert]", param, value);
                 };
-                this.lblError.Text = "A Ocurrido un error en el sistema, por favor contacte con el administrador e intente de nuevo";
-                hfOperacion.Value = ex.Message;
             }
         }
 

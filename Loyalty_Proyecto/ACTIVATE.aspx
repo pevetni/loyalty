@@ -361,9 +361,8 @@
     <div id="mainerror" align="center" class="content">
         <table>
             <tr style="height:100px">
-                <td class="lblrequired">Ha ocurrido un error, contacte al administrador del sistema.
-                    <br />
-                    <asp:Label ID="lblError" runat="server"></asp:Label>
+                <td class="lblrequired">
+                    <asp:Label ID="lblError" runat="server" />
                 </td>
             </tr>
         </table>
