@@ -243,7 +243,8 @@ namespace SGM_LOYALTY
             value[15] = this.hfTarjeta.Value.ToString();
             value[16] = Helper.EncodeString(this.hfDNI.Value.ToString());
             value[17] = 0; 
-            value[18] = this.hfValidado.Value.ToString();
+            value[18] = 0;
+            value[19] = this.hfValidado.Value.ToString();
 
             /*****************
              * Envio de mail *

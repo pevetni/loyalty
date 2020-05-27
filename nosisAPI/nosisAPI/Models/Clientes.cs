@@ -63,5 +63,7 @@ namespace nosisAPI.Models
 
         public bool Validado { get; set; }
 
+        public bool ValidadoNosis { get; set; }
+
     }
 }

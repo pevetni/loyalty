@@ -1,19 +1,32 @@
 ﻿<Properties StartupConfiguration="{13700611-C194-40B1-BE60-7E6031854B7B}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="ACTIVATE.aspx.cs">
     <Files>
-      <File FileName="ACTIVATE.aspx.cs" Line="1" Column="1" />
+      <File FileName="ACTIVATE.aspx.cs" Line="246" Column="26" />
+      <File FileName="ACTIVATE.aspx" Line="40" Column="21" />
+      <File FileName="CDataLayer.cs" />
+      <File FileName="Global.asax" />
+      <File FileName="Global.asax.cs" />
+      <File FileName="Privilegios.aspx.cs" />
+      <File FileName="Scripts/Activate.js" Line="298" Column="29" />
+      <File FileName="ACTIVATE.aspx.designer.cs" Line="204" Column="65" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SGM-LOYALTY" expanded="True">
             <Node name="SGM-LOYALTY" expanded="True">
+              <Node name="Scripts" expanded="True" />
               <Node name="ACTIVATE.aspx" expanded="True">
                 <Node name="ACTIVATE.aspx.cs" selected="True" />
               </Node>
+              <Node name="Global.asax" expanded="True" />
+              <Node name="Privilegios.aspx" expanded="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

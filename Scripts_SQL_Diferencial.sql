@@ -1,3 +1,7 @@
+ALTER TABLE [DiarcoMas].[LOYALTY].[Clientes] ADD ValidadoNosis BIT NULL;
+
+
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -23,6 +27,7 @@ ALTER PROCEDURE [LOYALTY].[sp_Clientes_Insert]
                                                 , @HashValidacion       VARCHAR(100) = ''
                                                 , @Enviado              INT
                                                 , @Validado             BIT = 0
+                                                , @ValidadoNosis        BIT = 0
 AS
 
 DECLARE @Result TABLE (Codigo CHAR(2), Mensaje VARCHAR(1000))
@@ -45,6 +50,7 @@ DECLARE @mTarjeta           VARCHAR(20)
 DECLARE @mHashValidacion    VARCHAR(100)
 DECLARE @mEnviado           INT
 DECLARE @mValidado          BIT
+DECLARE @mValidadoNosis     BIT
 
 SET @DNI = ABS(LTRIM(RTRIM(@DNI)))
 
@@ -66,8 +72,9 @@ SET @Log = @Log + ' | @Email: ' + @Email
 SET @Log = @Log + ' | @Grupo: ' + CAST(@Grupo AS VARCHAR(4))
 SET @Log = @Log + ' | @Tarjeta: ' + @Tarjeta
 SET @Log = @Log + ' | @HashValidacion: ' + @HashValidacion
-SET @Log = @Log + ' | @Enviado: ' + CAST(@Enviado as VARCHAR(1))
+SET @Log = @Log + ' | @Enviado: ' + @Enviado
 SET @Log = @Log + ' | @Validado: ' + CAST(@Validado as VARCHAR)
+SET @Log = @Log + ' | @ValidadoNosis: ' + CAST(@ValidadoNosis as VARCHAR)
     
 EXECUTE [LOYALTY].[sp_Logs_Insert] @Log
 
@@ -219,6 +226,7 @@ BEGIN
         , HashValidacion
         , Enviado
         , Validado
+        , ValidadoNosis
     )
     VALUES
     (
@@ -242,6 +250,7 @@ BEGIN
         , @HashValidacion
         , @Enviado
         , @Validado
+        , @ValidadoNosis
     )
 
     SET @Log = 'ALTA: Cliente - '
@@ -262,8 +271,9 @@ BEGIN
     SET @Log = @Log + ' | @Grupo: ' + CAST(@Grupo AS VARCHAR(4))
     SET @Log = @Log + ' | @Tarjeta: ' + @Tarjeta
     SET @Log = @Log + ' | @HashValidacion: ' + @HashValidacion
-    SET @Log = @Log + ' | @Enviado: ' + CAST(@Enviado as VARCHAR(1))
+    SET @Log = @Log + ' | @Enviado: ' + @Enviado
     SET @Log = @Log + ' | @Validado: ' + CAST(@Validado as VARCHAR)
+    SET @Log = @Log + ' | @ValidadoNosis: ' + CAST(@ValidadoNosis as VARCHAR)
     
     EXECUTE [LOYALTY].[sp_Logs_Insert] @Log
 
@@ -289,6 +299,7 @@ BEGIN
             , @mHashValidacion = HashValidacion
             , @mEnviado = Enviado
             , @mValidado = Validado
+            , @mValidadoNosis = ValidadoNosis
     FROM    [LOYALTY].[Clientes] 
     WHERE   DNI = @DNI
 
@@ -310,8 +321,9 @@ BEGIN
     SET @Log = @Log + ' | @Grupo: ' + CAST(ISNULL(@mGrupo, '') AS VARCHAR(4))
     SET @Log = @Log + ' | @Tarjeta: ' + ISNULL(@mTarjeta, '')
     SET @Log = @Log + ' | @HashValidacion: ' + @mHashValidacion
-    SET @Log = @Log + ' | @Enviado: ' + CAST(@mEnviado as VARCHAR(1))
+    SET @Log = @Log + ' | @Enviado: ' + @mEnviado
     SET @Log = @Log + ' | @Validado: ' + CAST(@mValidado as VARCHAR)
+    SET @Log = @Log + ' | @ValidadoNosis: ' + CAST(@mValidadoNosis as VARCHAR)
     
     EXECUTE [LOYALTY].[sp_Logs_Insert] @Log
 
@@ -334,8 +346,9 @@ BEGIN
     SET @Log = @Log + ' | @Grupo: ' + CAST(ISNULL(@Grupo, '') AS VARCHAR(4))
     SET @Log = @Log + ' | @Tarjeta: ' + ISNULL(@Tarjeta, '')
     SET @Log = @Log + ' | @HashValidacion: ' + @HashValidacion
-    SET @Log = @Log + ' | @Enviado: ' + CAST(@mEnviado as VARCHAR(1))
+    SET @Log = @Log + ' | @Enviado: ' + @mEnviado
     SET @Log = @Log + ' | @Validado: ' + CAST(@Validado as VARCHAR) 
+    SET @Log = @Log + ' | @ValidadoNosis: ' + CAST(@ValidadoNosis as VARCHAR)   
 
     EXECUTE [LOYALTY].[sp_Logs_Insert] @Log
 
@@ -380,5 +393,6 @@ VALUES ('SI', 'SI')
 
 SELECT Codigo, Mensaje FROM @Result
  
+
 
 GO

@@ -289,13 +289,13 @@ function checkdni(documento) {
                     if (variable.nombre === 'VI_Nombre') {
                         $('#nombre').val(variable.valor);
                         $("#nombre").prop('readonly', 'readonly');
-                        $("#hfValidado").val(1);
+                        $("#hfValidadoNosis").val(1);
                     }
 
                     if (variable.nombre === 'VI_Apellido') {
                         $('#apellido').val(variable.valor);
                         $("#apellido").prop('readonly', 'readonly');
-                        $("#hfValidado").val(1);
+                        $("#hfValidadoNosis").val(1);
                     }
 
                 })

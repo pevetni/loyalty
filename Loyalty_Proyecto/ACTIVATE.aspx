@@ -12,7 +12,6 @@
 <script src="Scripts/bootStrapValidator.js"></script>
 
 <link href="CSS/Activate_bootstrap_min.css" rel="stylesheet" />
-<%--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">--%>
 <link href="CSS/bootstrap-3.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 <link href="CSS/Activate_bootstrap_theme_min.css" rel="stylesheet" />
 <link href="CSS/Activate_bootstrapValidator_min.css" rel="stylesheet" />
@@ -38,7 +37,7 @@
 
             if (quantity == 8) {
                 //Aca le tenes que colocar el servicio de nosis y dentro la logica
-                $("#hfValidado").val(0);
+                $("#hfValidadoNosis").val(0);
                 $.ajax({
                     type: "GET",
                     url: 'https://localhost:44342/validar/' + documento,
@@ -51,13 +50,13 @@
                             if (variable.nombre === 'VI_Nombre') {
                                 $('#nombre').val(variable.valor);
                                 $("#nombre").prop('readonly', 'readonly');
-                                $("#hfValidado").val(1);
+                                $("#hfValidadoNosis").val(1);
                             }
                                 
                             if (variable.nombre === 'VI_Apellido') {
                                 $('#apellido').val(variable.valor);
                                 $("#apellido").prop('readonly', 'readonly');
-                                $("#hfValidado").val(1);
+                                $("#hfValidadoNosis").val(1);
                             }
                                 
                         })
@@ -346,6 +345,7 @@
             <asp:hiddenfield id="hfTarjeta" value="" runat="server"/>
             <asp:hiddenfield id="hfOperacion" value="" runat="server"/>
             <asp:hiddenfield id="hfValidado" value="" runat="server"/>
+            <asp:hiddenfield id="hfValidadoNosis" value="" runat="server"/>
         </div>
     </form>
 

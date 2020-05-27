@@ -83,7 +83,7 @@ namespace nosisAPI.Services
         }
 
         public void sincronizacion(IRepositoryWrapper _repoWrapper) {
-            using (IEnumerator<Clientes> empEnumerator = _repoWrapper.Clientes.FindByCondition(x => !x.Validado).GetEnumerator())
+            using (IEnumerator<Clientes> empEnumerator = _repoWrapper.Clientes.FindByCondition(x => !x.ValidadoNosis).GetEnumerator())
             {
                 while (empEnumerator.MoveNext())
                 {
@@ -100,7 +100,7 @@ namespace nosisAPI.Services
                             if (variable.Nombre.Contains("Apellido"))
                             {
                                 cli.Apellido = variable.Valor;
-                                cli.Validado = true;
+                                cli.ValidadoNosis = true;
                                 break;
                             }
                         }
