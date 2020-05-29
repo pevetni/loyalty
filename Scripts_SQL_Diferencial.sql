@@ -1,6 +1,6 @@
 ALTER TABLE [DiarcoMas].[LOYALTY].[Clientes] ADD ValidadoNosis BIT NULL;
 
-
+UPDATE [DiarcoMas].[LOYALTY].[Clientes] SET ValidadoNosis = 0;
 
 SET ANSI_NULLS ON
 GO
