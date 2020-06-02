@@ -90,7 +90,7 @@ namespace nosisAPI.Services
                     // now empEnumerator.Current is the Employee instance without casting
                     Clientes cli = empEnumerator.Current;
                     ResponseNosis resp = callNosis(cli.DNI.ToString(), false);
-                    if (resp != null) { 
+                    if (resp != null && resp.Contenido!= null && resp.Contenido.Datos != null ) { 
                         foreach (Variables variable in resp.Contenido.Datos.Variables)
                         {
                             if (variable.Nombre.Contains("Nombre"))
